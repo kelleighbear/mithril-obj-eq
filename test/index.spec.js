@@ -76,9 +76,11 @@
           name: 'Cara',
           type: 'Cat'
         }],
-        mithril: [m.prop('Derp'), {
-          derp: m.prop('Derp')
-        }]
+        mithril: {
+          derp: m.prop('Derp'),
+          berp: m.prop('Berp'),
+          slurp: m.prop('Slurp')
+        }
       };
       var obj2 = {
         name: 'Kelleigh',
@@ -90,9 +92,11 @@
           name: 'Cara',
           type: 'Cat'
         }],
-        mithril: [m.prop('Derp'), {
-          derp: m.prop('Derp')
-        }]
+        mithril: {
+          derp: m.prop('Derp'),
+          berp: m.prop('Berp'),
+          slurp: m.prop('Slurp')
+        }
       };
 
       expect(Equals(obj1, obj2)).to.equal(true);
