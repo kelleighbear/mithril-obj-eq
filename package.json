@@ -1,0 +1,32 @@
+{
+  "name": "mithril-obj-eq",
+  "version": "1.0.0",
+  "description": "Loops through two objects containing mithril props and determine whether they're equal",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kelleighbear/mithril-obj-eq"
+  },
+  "keywords": [
+    "mithril",
+    "mithril properties",
+    "object equality"
+  ],
+  "author": "Kelleigh Maroney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelleighbear/mithril-obj-eq/issues"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "gulp": "3.9.0",
+    "gulp-bump": "^0.3.1",
+    "gulp-mocha": "2.1.3",
+    "lodash": "^4.17.3",
+    "mithril": "^0.2.5",
+    "mocha": "^2.3.1"
+  }
+}
